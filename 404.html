@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lavarel-The PHP Framework</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="upper-content">
+				<div class="upper-content__img-container">
+					<img class="upper-content__img" src="images/smile.svg">
+				</div>
+				<div class="upper-content__text">Get started with PHP and Laravel faster than ever using Laravel Herd.
+				</div>
+			</div>
+			<div class="header-container">
+				<nav class="nav">
+					<div class="logo-container">
+						<a href="" class="logo-container__link">
+							<img class="logo-container__img-one" src="images/logo-1.svg" alt="logotype">
+							<img class="logo-container__img-two" src="images/logo-2.svg" alt="logotype">
+						</a>
+					</div>
+					<input type="checkbox" id="clickBurger" class="click-toggle">
+					<label for="clickBurger" class="burger-box">
+						<div class="burger-container">
+							<div class="burger">
+								<img class="burger__img-open" src="images/burger-open.svg">
+								<img class="burger__img-close" src="images/burger-close.svg">
+							</div>
+						</div>
+					</label>
+					<ul class="menu">
+						<li class="menu__item">
+							<a href="https://forge.laravel.com/" class="menu__link menu__link_padding-8">Forge</a>
+						</li>
+						<li class="menu__item">
+							<a href="https://vapor.laravel.com/" class="menu__link menu__link_padding-8">Vapor</a>
+						</li>
+						<li class="menu__item btn">
+							<input type="checkbox" id="flipToggle" class="flip-toggle">
+							<label for="flipToggle" class="flip-image-container">
+								<div class="menu__btn">Ecosystem
+									<img class="menu__img" src="images/arrow.svg">
+								</div>
+							</label>
+							<div class="ecosystem-menu__box">
+								<div class="ecosystem-menu__menu">
+									<ul class="ecosystem-menu__list">
+										<li>
+											<a class="ecosystem-menu__link breeze">
+												<div>
+													<h3 class="ecosystem-menu__title">Breeze</h3>
+													<p class="ecosystem-menu__description">Lightweight starter kit
+														scaffolding for new
+														applications
+														with Blade or Inertia.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link cashier">
+												<div>
+													<h3 class="ecosystem-menu__title">Cashier</h3>
+													<p class="ecosystem-menu__description">Take the pain out of managing
+														subscriptions
+														on Stripe or
+														Paddle.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link dusk">
+												<div>
+													<h3 class="ecosystem-menu__title">Dusk</h3>
+													<p class="ecosystem-menu__description">Automated browser testing to
+														ship your
+														application with
+														confidence.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link echo">
+												<div>
+													<h3 class="ecosystem-menu__title">Echo</h3>
+													<p class="ecosystem-menu__description">Listen for WebSocket events
+														broadcast by your
+														Laravel
+														application.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link envoyer">
+												<div>
+													<h3 class="ecosystem-menu__title">Envoyer</h3>
+													<p class="ecosystem-menu__description">Deploy your Laravel
+														applications to customers with
+														zero
+														downtime.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link forge" href="">
+												<div>
+													<h3 class="ecosystem-menu__title">Forge</h3>
+													<p class="ecosystem-menu__description">Server management doesn't
+														have to be a
+														nightmare.
+													</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link herd">
+												<div>
+													<h3 class="ecosystem-menu__title">Herd</h3>
+													<p class="ecosystem-menu__description">The fastest Laravel local dev
+														environment - now for
+														macOS and Windows.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link horizon">
+												<div>
+													<h3 class="ecosystem-menu__title">Horizon</h3>
+													<p class="ecosystem-menu__description">Beautiful UI for monitoring
+														your Redis driven
+														Laravel
+														queues.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link inertia">
+												<div>
+													<h3 class="ecosystem-menu__title">Inertia</h3>
+													<p class="ecosystem-menu__description">Create modern single-page
+														React and Vue apps using
+														classic server-side routing.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link jetstream">
+												<div>
+													<h3 class="ecosystem-menu__title">Jetstream</h3>
+													<p class="ecosystem-menu__description">Robust starter kit including
+														authentication and team
+														management.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link livewire">
+												<div>
+													<h3 class="ecosystem-menu__title">Livewire</h3>
+													<p class="ecosystem-menu__description">Build reactive, dynamic
+														applications using Laravel
+														and
+														Blade.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link nova">
+												<div>
+													<h3 class="ecosystem-menu__title">Nova</h3>
+													<p class="ecosystem-menu__description">Thoughtfully designed
+														administration panel for your
+														Laravel applications.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link octane">
+												<div>
+													<h3 class="ecosystem-menu__title">Octane</h3>
+													<p class="ecosystem-menu__description">Supercharge your
+														application's performance by
+														keeping it
+														in memory.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link pennant">
+												<div>
+													<h3 class="ecosystem-menu__title">Pennant</h3>
+													<p class="ecosystem-menu__description">A simple, lightweight library
+														for managing feature
+														flags.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link pint">
+												<div>
+													<h3 class="ecosystem-menu__title">Pint</h3>
+													<p class="ecosystem-menu__description">Opinionated PHP code style
+														fixer for minimalists.
+													</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link prompts">
+												<div>
+													<h3 class="ecosystem-menu__title">Prompts</h3>
+													<p class="ecosystem-menu__description">Beautiful and user-friendly
+														forms for command-line
+														applications.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link pulse">
+												<div>
+													<h3 class="ecosystem-menu__title">Pulse</h3>
+													<p class="ecosystem-menu__description">At-a-glance insights into
+														your application's
+														performance
+														and usage.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link reverb">
+												<div>
+													<h3 class="ecosystem-menu__title">Reverb</h3>
+													<p class="ecosystem-menu__description">Blazing fast and scalable
+														WebSockets for your
+														application.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link sail">
+												<div>
+													<h3 class="ecosystem-menu__title">Sail</h3>
+													<p class="ecosystem-menu__description">Hand-crafted Laravel local
+														development experience
+														using
+														Docker.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link sanctum">
+												<div>
+													<h3 class="ecosystem-menu__title">Sanctum</h3>
+													<p class="ecosystem-menu__description">API and mobile application
+														authentication without
+														wanting to pull your hair out.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link scout">
+												<div>
+													<h3 class="ecosystem-menu__title">Scout</h3>
+													<p class="ecosystem-menu__description">Lightning fast full-text
+														search for your
+														application's
+														Eloquent models.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link socialite">
+												<div>
+													<h3 class="ecosystem-menu__title">Socialite</h3>
+													<p class="ecosystem-menu__description">Social authentication via
+														Facebook, Twitter, GitHub,
+														LinkedIn, and more.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link spark">
+												<div>
+													<h3 class="ecosystem-menu__title">Spark</h3>
+													<p class="ecosystem-menu__description">Launch your next business
+														with our fully-featured,
+														drop-in billing portal.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="" class="ecosystem-menu__link telescope">
+												<div>
+													<h3 class="ecosystem-menu__title">Telescope</h3>
+													<p class="ecosystem-menu__description">Debug your application using
+														our debugging and
+														insight
+														UI.</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="ecosystem-menu__link vapor" href="">
+												<div>
+													<h3 class="ecosystem-menu__title">Vapor</h3>
+													<p class="ecosystem-menu__description">Laravel Vapor is a serverless
+														deployment
+														platform for
+														Laravel, powered by AWS.</p>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="">News</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="">Partners</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="">Careers</a>
+						</li>
+						<li class="menu__item documentation">
+							<div class="documentation__box">
+								<a href="" class="documentation__link">
+									<span class="documentation__link-box">Documentation</span>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<div class="nav-items">
+						<button class="nav-items__btn" type="button">
+							<img class="nav-items__img" src="images/search-img.svg">
+						</button>
+						<a class="link nav-items__link" href="">
+							<span class="link__box">Documentation</span>
+						</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section class="hero">
+				<div class="container">
+					<div class="cube hero__cube-first"></div>
+					<div class="cube hero__cube-second"></div>
+					<div class="cube hero__cube-third"></div>
+					<h1 class="hero__title">The PHP Framework
+						<br>
+						<span class="red__text">for Web Artisans</span>
+					</h1>
+					<p class="hero__description">Laravel is a web application framework with expressive, elegant
+						syntax. We've already laid
+						the foundation — freeing you to create without sweating the small things.</p>
+					<div class="box">
+						<a class="link link-box__link hero__link link__box_red-bg" href="">
+							<span class="link__box hero__link-box">Get Started</span>
+						</a>
+						<a class="link link-box__link hero__link" href="">
+							<span class="link__box hero__link-box">Watch Laracasts</span>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="learning">
+				<div class="cube learning__cube-first"></div>
+				<div class="container">
+					<div class="cube learning__cube-second"></div>
+					<div class="learning__box">
+						<div class="learning__text-container">
+							<div class="learning__text">
+								<h2 class="title">Write code for the joy of it.</h2>
+								<div class="learning__description">
+									<p>Laravel values beauty. We love clean code just as much as you do. Simple, elegant
+										syntax
+										puts
+										amazing functionality at your fingertips. Every feature has been thoughtfully
+										considered
+										to
+										provide a wonderful developer experience.</p>
+								</div>
+								<div class="link-box">
+									<a class="link link-box__link " href="">
+										<span class="link__box">Start Learning</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="learning__image">
+							<img src="images/code-img.svg">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="framework">
+				<div class="container">
+					<div class="framework__box">
+						<div class="framework__image">
+							<img src="images/laravel-functions.svg" alt="">
+						</div>
+						<div class="framework__text-container">
+							<div class="framework__text">
+								<h2 class="title">One Framework, Many Flavors</h2>
+								<div class="framework__description">
+									<p>Build robust, full-stack applications in PHP using Laravel and Livewire. Love
+										JavaScript? Build a monolithic React or Vue driven frontend by pairing Laravel
+										with
+										Inertia.</p>
+									<p>Or, let Laravel serve as a robust backend API for your Next.js application,
+										mobile
+										application, or other frontend. Either way, our starter kits will have you
+										productive in minutes.</p>
+								</div>
+								<div class="link-box">
+									<a class="link link-box__link" href="">
+										<span class="link__box">Empower Your Frontend</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="library">
+				<div class="container">
+					<div class="cube library__cube"></div>
+					<div class="library__text">
+						<h2 class="title">Enterprise scale without the enterprise complexity.</h2>
+						<p>Our vast library of meticulously maintained packages means you're ready for anything. Let
+							Laravel Octane supercharge your application's performance, and experience infinite scale on
+							Laravel Vapor, our serverless deployment platform powered by AWS Lambda.</p>
+					</div>
+					<ul class="forge-vapor">
+						<li class="forge-vapor__item">
+							<a class="forge-vapor__link forge" href="">
+								<div>
+									<h3 class="forge-vapor__title">Forge</h3>
+									<p class="forge-vapor__description">Server management doesn't have to be a
+										nightmare.
+										Provision
+										and deploy unlimited PHP applications on DigitalOcean, Linode, Vultr, Amazon,
+										Hetzner and more.</p>
+								</div>
+							</a>
+						</li>
+						<li class="forge-vapor__item">
+							<a class="forge-vapor__link vapor" href="">
+								<div>
+									<h3 class="forge-vapor__title">Vapor</h3>
+									<p class="forge-vapor__description">Laravel Vapor is a serverless deployment
+										platform for
+										Laravel, powered by AWS. Launch your Laravel infrastructure on Vapor and fall in
+										love with the scalable simplicity of serverless.</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<ul class="functions-list">
+						<li class="functions-list__item">
+							<a class="functions-list__link breeze">
+								<div>
+									<h3 class="functions-list__title">Breeze</h3>
+									<p class="functions-list__description">Lightweight starter kit scaffolding for new
+										applications
+										with Blade or Inertia.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link cashier">
+								<div>
+									<h3 class="functions-list__title">Cashier</h3>
+									<p class="functions-list__description">Take the pain out of managing subscriptions
+										on Stripe or
+										Paddle.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link dusk">
+								<div>
+									<h3 class="functions-list__title">Dusk</h3>
+									<p class="functions-list__description">Automated browser testing to ship your
+										application with
+										confidence.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link echo">
+								<div>
+									<h3 class="functions-list__title">Echo</h3>
+									<p class="functions-list__description">Listen for WebSocket events broadcast by your
+										Laravel
+										application.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link envoyer">
+								<div>
+									<h3 class="functions-list__title">Envoyer</h3>
+									<p class="functions-list__description">Deploy your Laravel applications to customers
+										with
+										zero
+										downtime.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link herd">
+								<div>
+									<h3 class="functions-list__title">Herd</h3>
+									<p class="functions-list__description">The fastest Laravel local dev environment -
+										now for
+										macOS and Windows.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link horizon">
+								<div>
+									<h3 class="functions-list__title">Horizon</h3>
+									<p class="functions-list__description">Beautiful UI for monitoring your Redis driven
+										Laravel
+										queues.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link inertia">
+								<div>
+									<h3 class="functions-list__title">Inertia</h3>
+									<p class="functions-list__description">Create modern single-page React and Vue apps
+										using
+										classic server-side routing.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link jetstream">
+								<div>
+									<h3 class="functions-list__title">Jetstream</h3>
+									<p class="functions-list__description">Robust starter kit including authentication
+										and team
+										management.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link livewire">
+								<div>
+									<h3 class="functions-list__title">Livewire</h3>
+									<p class="functions-list__description">Build reactive, dynamic applications using
+										Laravel
+										and
+										Blade.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link nova">
+								<div>
+									<h3 class="functions-list__title">Nova</h3>
+									<p class="functions-list__description">Thoughtfully designed administration panel
+										for your
+										Laravel applications.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link octane">
+								<div>
+									<h3 class="functions-list__title">Octane</h3>
+									<p class="functions-list__description">Supercharge your application's performance by
+										keeping it
+										in memory.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link pennant">
+								<div>
+									<h3 class="functions-list__title">Pennant</h3>
+									<p class="functions-list__description">A simple, lightweight library for managing
+										feature
+										flags.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link pint">
+								<div>
+									<h3 class="functions-list__title">Pint</h3>
+									<p class="functions-list__description">Opinionated PHP code style fixer for
+										minimalists.
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link prompts">
+								<div>
+									<h3 class="functions-list__title">Prompts</h3>
+									<p class="functions-list__description">Beautiful and user-friendly forms for
+										command-line
+										applications.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link pulse">
+								<div>
+									<h3 class="functions-list__title">Pulse</h3>
+									<p class="functions-list__description">At-a-glance insights into your application's
+										performance
+										and usage.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link reverb">
+								<div>
+									<h3 class="functions-list__title">Reverb</h3>
+									<p class="functions-list__description">Blazing fast and scalable WebSockets for your
+										application.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link sail">
+								<div>
+									<h3 class="functions-list__title">Sail</h3>
+									<p class="functions-list__description">Hand-crafted Laravel local development
+										experience
+										using
+										Docker.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link sanctum">
+								<div>
+									<h3 class="functions-list__title">Sanctum</h3>
+									<p class="functions-list__description">API and mobile application authentication
+										without
+										wanting to pull your hair out.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link scout">
+								<div>
+									<h3 class="functions-list__title">Scout</h3>
+									<p class="functions-list__description">Lightning fast full-text search for your
+										application's
+										Eloquent models.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link socialite">
+								<div>
+									<h3 class="functions-list__title">Socialite</h3>
+									<p class="functions-list__description">Social authentication via Facebook, Twitter,
+										GitHub,
+										LinkedIn, and more.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a class="functions-list__link spark">
+								<div>
+									<h3 class="functions-list__title">Spark</h3>
+									<p class="functions-list__description">Launch your next business with our
+										fully-featured,
+										drop-in billing portal.</p>
+								</div>
+							</a>
+						</li>
+						<li class="functions-list__item">
+							<a href="" class="functions-list__link telescope">
+								<div>
+									<h3 class="functions-list__title">Telescope</h3>
+									<p class="functions-list__description">Debug your application using our debugging
+										and
+										insight
+										UI.</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="community">
+				<div class="container">
+					<div class="grid">
+						<div class="community__text-container">
+							<div class="community__text">
+								<h2 class="title community__title">A community built for people like you.</h2>
+								<div class="community__description">
+									<p>Laravel is for everyone — whether you have been programming for 20 years or 20
+										minutes.
+										It's for architecture astronauts and weekend hackers. For those with degrees and
+										for
+										those who dropped out to chase their dreams. Together, we create amazing things.
+									</p>
+								</div>
+								<ul class="community-list">
+									<li class="community-list__item">
+										<a class="community-list__link blog" href="">
+											<p class="community-list__text">Blog</p>
+										</a>
+									</li>
+									<li class="community-list__item">
+										<a class="community-list__link forums" href="">
+											<p class="community-list__text">Forums</p>
+										</a>
+									</li>
+									<li class="community-list__item">
+										<a class="community-list__link jobs" href="">
+											<p class="community-list__text">Jobs</p>
+										</a>
+									</li>
+									<li class="community-list__item">
+										<a class="community-list__link news" href="">
+											<p class="community-list__text">Laravel News</p>
+										</a>
+									</li>
+									<li class="community-list__item">
+										<a class="community-list__link laracasts" href="">
+											<p class="community-list__text">Laracasts</p>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="community__box">
+							<div class="community__image-container">
+								<img class="community__img" src="images/laracon.png">
+								<h3 class="community__top-title">Watch us on Laracasts</h3>
+								<h2 class="community__bottom-title">Tune In</h2>
+								<p class="community__img-description">Laracasts includes free videos and tutorials
+									covering the entire Laravel ecosystem. Stay up to date by watching our latest
+									videos.</p>
+								<a class="link community__link" href="">
+									<span class="link__box">Start Watching</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div>
+					<a class="footer__link">
+						<img class="footer__img" src="images/logomark.svg">
+					</a>
+				</div>
+				<div class="footer-text">
+					<div class="footer-content">
+						<div class="footer-content__text">
+							<p>Laravel is a web application framework with expressive, elegant syntax. We believe
+								development must be an enjoyable and creative experience to be truly fulfilling. Laravel
+								attempts to take the pain out of development by easing common tasks used in most web
+								projects.</p>
+						</div>
+						<ul class="networks">
+							<li class="networks__item">
+								<a class="networks__link">
+									<img class="networks__img" src="images/Twitter.svg">
+								</a>
+							</li>
+							<li class="networks__item">
+								<a class="networks__link">
+									<img class="networks__img" src="images/GitHub.svg">
+								</a>
+							</li>
+							<li class="networks__item">
+								<a class="networks__link">
+									<img class="networks__img" src="images/Discord.svg">
+								</a>
+							</li>
+							<li class="networks__item">
+								<a class="networks__link">
+									<img class="networks__img" src="images/YouTube.svg">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="highlights">
+						<div class="highlights__text">Highlights</div>
+						<div class="highlights__links">
+							<ul class="footer-links-list">
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Release Notes</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Getting Started</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Routing</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Blade Templates</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Authentication</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Authorization</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Artisan Console</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Database</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Eloquent ORM</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Testing</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="resources">
+						<div class="resources__text">Resources</div>
+						<div class="resources__links">
+							<ul class="footer-links-list">
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Laravel Bootcamp</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Laracasts</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Laravel News</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Laracon</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Laracon AU</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Laracon EU</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Laracon India</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Larabelles</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Careers</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Jobs</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Forums</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Trademark</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="partners">
+						<div class="partners__text">Partners</div>
+						<div class="partners__links">
+							<ul class="footer-links-list">
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Vehikl</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">WebReinvent</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Tighten</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Bacancy</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">64 Robots</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Active Logic</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Black Airplane</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Byte 5</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Curotec</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Cyber-Duck</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">DevSquad</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Jump24</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Kirschbaum</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="ecosystem">
+						<div class="ecosystem__text">Ecosystem</div>
+						<div class="ecosystem__links">
+							<ul class="footer-links-list">
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Breeze</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Cashier</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Dusk</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Echo</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Envoyer</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Forge</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Herd</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Horizon</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Inertia</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Jetstream</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Livewire</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Nova</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Octane</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Pennant</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Pint</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Prompts</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Pulse</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Reverb</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Sail</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Sanctum</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Scout</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Socialite</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Spark</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Telescope</a>
+								</li>
+								<li class="footer-links-list__item">
+									<a class="footer-links-list__link">Vapor</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
